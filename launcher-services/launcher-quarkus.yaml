@@ -6,5 +6,9 @@ services:
   hash_length: 7
   environments:
   - name: production
+    parameters:
+      IMAGE_TAG: 20fb930
   - name: staging
+    parameters:
+      IMAGE_TAG: 20fb930
 

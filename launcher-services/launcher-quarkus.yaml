@@ -9,8 +9,9 @@ services:
     parameters:
       LAUNCHER_QUARKUS_ENV: stage
       LAUNCHER_QUARKUS_SENTRY_DSN: https://6a5c2639e85449b09cb599025875fac7@sentry.io/1513237
+      LAUNCHER_QUARKUS_GA_TRACKING_ID: UA-53173938-2
   - name: production
     parameters:
       LAUNCHER_QUARKUS_ENV: production
       LAUNCHER_QUARKUS_SENTRY_DSN: https://6a5c2639e85449b09cb599025875fac7@sentry.io/1513237
-
+      LAUNCHER_QUARKUS_GA_TRACKING_ID: UA-53173938-1

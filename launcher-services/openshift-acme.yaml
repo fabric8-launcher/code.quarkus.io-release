@@ -1,0 +1,6 @@
+services:
+- hash: ignore
+  name: openshift-acme
+  path: /openshift/openshift-acme.template.yaml
+  url: https://github.com/app-sre/openshift-acme-templates
+  hash_length: 7

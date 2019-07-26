@@ -1,5 +1,5 @@
 services:
-- hash: 7a6928d2b9d0cb60ff93c515867f199acde12a4c
+- hash: 67d4f38fce6106d8d947dfc5471f31e51088ab9b
   name: launcher-quarkus
   path: /openshift/template.yaml
   url: https://github.com/fabric8-launcher/launcher-quarkus
@@ -10,8 +10,10 @@ services:
       LAUNCHER_QUARKUS_ENV: stage
       LAUNCHER_QUARKUS_SENTRY_DSN: https://6a5c2639e85449b09cb599025875fac7@sentry.io/1513237
       LAUNCHER_QUARKUS_GA_TRACKING_ID: UA-53173938-2
+      REPLICAS: 1
   - name: production
     parameters:
       LAUNCHER_QUARKUS_ENV: production
       LAUNCHER_QUARKUS_SENTRY_DSN: https://6a5c2639e85449b09cb599025875fac7@sentry.io/1513237
       LAUNCHER_QUARKUS_GA_TRACKING_ID: UA-53173938-1
+      REPLICAS: 3

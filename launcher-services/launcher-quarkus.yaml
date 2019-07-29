@@ -1,5 +1,5 @@
 services:
-- hash: d2115ccbc699136d31a1f5b1a041b119492c1137
+- hash: 112941afdd0f3549235354ba82e2bec63f51b16c
   name: launcher-quarkus
   path: /openshift/template.yaml
   url: https://github.com/fabric8-launcher/launcher-quarkus

@@ -1,7 +1,7 @@
 contexts:
 - data:
-    output_dir: launcher-processed
-    services_dir: launcher-services
-    templates_dir: launcher-templates
+    output_dir: code-quarkus-processed
+    services_dir: code-quarkus-services
+    templates_dir: code-quarkus-templates
   name: code-quarkus
 current: code-quarkus

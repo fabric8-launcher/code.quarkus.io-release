@@ -3,5 +3,5 @@ contexts:
     output_dir: launcher-processed
     services_dir: launcher-services
     templates_dir: launcher-templates
-  name: launcher
-current: launcher
+  name: code-quarkus
+current: code-quarkus

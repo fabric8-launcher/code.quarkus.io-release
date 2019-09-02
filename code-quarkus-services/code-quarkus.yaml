@@ -1,0 +1,19 @@
+services:
+- hash: da64cc8f4bf3ff614f019ca9423a6a32903ff01c
+  name: code-quarkus
+  path: /openshift/template.yaml
+  url: https://github.com/fabric8-launcher/code.quarkus.io
+  hash_length: 7
+  environments:-
+  - name: staging
+    parameters:
+      CODE_QUARKUS_ENV: stage
+      CODE_QUARKUS_SENTRY_DSN: https://6a5c2639e85449b09cb599025875fac7@sentry.io/1513237
+      CODE_QUARKUS_GA_TRACKING_ID: UA-53173938-2
+      REPLICAS: 1
+  - name: production
+    parameters:
+      CODE_QUARKUS_ENV: production
+      CODE_QUARKUS_SENTRY_DSN: https://6a5c2639e85449b09cb599025875fac7@sentry.io/1513237
+      CODE_QUARKUS_GA_TRACKING_ID: UA-53173938-1
+      REPLICAS: 3

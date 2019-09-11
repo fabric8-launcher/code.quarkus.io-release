@@ -12,8 +12,8 @@ Manage releases for Code Quarkus
 
 ## Infra (Restricted access)
 
-Staging: https://console.app-sre-stage.openshift.com/console/project/code-quarkus-stage/overview
-Production: https://console.app-sre.openshift.com/console/project/code-quarkus-production/overview
+- Staging: https://console.app-sre-stage.openshift.com/console/project/code-quarkus-stage/overview
+- Production: https://console.app-sre.openshift.com/console/project/code-quarkus-production/overview
 
 ## CI/CD (Restricted access)
 

@@ -1,5 +1,5 @@
 services:
-- hash: 7eba0c87d490ff99edd1f1362a42395f4f399edb
+- hash: 735c9c34ff153c78c0ee7e39f15494aa8b9fdd7d
   name: code-quarkus
   path: /openshift/template.yaml
   url: https://github.com/fabric8-launcher/code.quarkus.io

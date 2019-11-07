@@ -15,4 +15,7 @@ Manage releases for Code Quarkus
 - Staging: https://console.app-sre-stage.openshift.com/console/project/code-quarkus-stage/overview
 - Production: https://console.app-sre.openshift.com/console/project/code-quarkus-production/overview
 - CI/CD: https://ci.ext.devshift.net/view/code-quarkus/
+- Kibana: https://grafana.app-sre.devshift.net/d/k8s-compute-resources-namespace/k8s-compute-resources-namespace?orgId=1&refresh=10s&var-datasource=app-sre-cluster-prometheus&var-namespace=code-quarkus-production
+- Jira: https://jira.coreos.com/projects/APPSRE/issues/
+- Infra repository: https://gitlab.cee.redhat.com/service/app-interface
 

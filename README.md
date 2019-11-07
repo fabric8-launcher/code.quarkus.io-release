@@ -10,7 +10,10 @@ Manage releases for Code Quarkus
 3. Wait for CI and merge
 4. Production will automatically be updated with the new version (~3mins)
 
-## Infra (Restricted access)
+## Infra Managed by Red Hat app-sre team 
+
+
+All those links have restricted access:
 
 - Staging: https://console.app-sre-stage.openshift.com/console/project/code-quarkus-stage/overview
 - Production: https://console.app-sre.openshift.com/console/project/code-quarkus-production/overview
@@ -18,4 +21,7 @@ Manage releases for Code Quarkus
 - Kibana: https://grafana.app-sre.devshift.net/d/k8s-compute-resources-namespace/k8s-compute-resources-namespace?orgId=1&refresh=10s&var-datasource=app-sre-cluster-prometheus&var-namespace=code-quarkus-production
 - Jira: https://jira.coreos.com/projects/APPSRE/issues/
 - Infra repository: https://gitlab.cee.redhat.com/service/app-interface
+- Slack: https://coreos.slack.com (channel sd-app-sre)
 
+
+To request access, please contact adamevin@redhat.com

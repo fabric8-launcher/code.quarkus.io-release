@@ -7,7 +7,7 @@ services:
   environments:
   - name: staging
     parameters:
-      CODE_QUARKUS_ENV: stage
+      IO_QUARKUS_CODE_ENVIRONMENT: stage
       REPLICAS: 1
   - name: production
     parameters:

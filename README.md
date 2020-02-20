@@ -15,12 +15,12 @@ Manage releases for Code Quarkus
 
 All those links have restricted access:
 
-- Staging: https://console.app-sre-stage.openshift.com/console/project/code-quarkus-stage/overview
-- Production: https://console.app-sre.openshift.com/console/project/code-quarkus-production/overview
+- Staging: https://console-openshift-console.apps.app-sre-stage-0.k3s7.p1.openshiftapps.com/k8s/cluster/projects
+- Production: https://console-openshift-console.apps.app-sre-prod-01.i7w5.p1.openshiftapps.com/k8s/cluster/projects/code-quarkus-production
 - CI/CD: https://ci.ext.devshift.net/view/code-quarkus/
-- Kibana: https://grafana.app-sre.devshift.net/d/k8s-compute-resources-namespace/k8s-compute-resources-namespace?orgId=1&refresh=10s&var-datasource=app-sre-cluster-prometheus&var-namespace=code-quarkus-production
-- Jira: https://jira.coreos.com/projects/APPSRE/issues/
+- Jira: https://issues.redhat.com//projects/APPSRE/issues/
 - Infra repository: https://gitlab.cee.redhat.com/service/app-interface
+- Sentry: https://sentry.devshift.net/
 - Slack: https://coreos.slack.com (channel sd-app-sre)
 
 

@@ -7,7 +7,7 @@ services:
   environments:
   - name: staging
     parameters:
-      REPLICAS: 1
+      REPLICAS: 2
       IO_QUARKUS_CODE_ENVIRONMENT: stage
       IO_QUARKUS_CODE_GA_EXTENSIONS_DIMENSION_INDEX: 5
       IO_QUARKUS_CODE_GA_QUARKUS_VERSION_DIMENSION_INDEX: 6

@@ -1,5 +1,5 @@
 services:
-- hash: 719c1ae
+- hash: 4a8f3ff
   name: code-quarkus
   path: /openshift/template.yaml
   url: https://github.com/quarkusio/code.quarkus.io
@@ -19,6 +19,7 @@ services:
     parameters:
       REPLICAS: 3
       IO_QUARKUS_CODE_ENVIRONMENT: production
+      IO_QUARKUS_CODE_HOSTNAME: code.quarkus.io
       IO_QUARKUS_CODE_GA_EXTENSIONS_DIMENSION_INDEX: 3
       IO_QUARKUS_CODE_GA_QUARKUS_VERSION_DIMENSION_INDEX: 4
       IO_QUARKUS_CODE_GA_BUILD_TOOL_DIMENSION_INDEX: 5

@@ -15,6 +15,7 @@ services:
       IO_QUARKUS_CODE_GA_BUILD_TOOL_DIMENSION_INDEX: 7
       IO_QUARKUS_CODE_GA_EXTENSION_QUANTITY_INDEX: 8
       IO_QUARKUS_CODE_GA_BATCHING_ENABLED: "false"
+      IO_QUARKUS_CODE_FEATURES: support-button
   - name: production
     parameters:
       REPLICAS: 3

@@ -1,5 +1,5 @@
 services:
-- hash: b006521ed873fcd34f53c75eb23425cce9605f40
+- hash: 5de703393df453f4a1c5552302e20a4e42a7ed13
   name: code-quarkus
   path: /openshift/template.yaml
   url: https://github.com/quarkusio/code.quarkus.io

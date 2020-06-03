@@ -18,7 +18,7 @@ All those links have restricted access:
 - Staging: https://console-openshift-console.apps.app-sre-stage-0.k3s7.p1.openshiftapps.com/k8s/cluster/projects
 - Production: https://console-openshift-console.apps.app-sre-prod-01.i7w5.p1.openshiftapps.com/k8s/cluster/projects/code-quarkus-production
 - CI/CD: https://ci.ext.devshift.net/view/code-quarkus/
-- Jira: https://issues.redhat.com//projects/APPSRE/issues/
+- Jira: https://issues.redhat.com/projects/APPSRE/issues/
 - Infra repository: https://gitlab.cee.redhat.com/service/app-interface
 - Sentry: https://sentry.devshift.net/
 - Slack: https://coreos.slack.com (channel sd-app-sre)

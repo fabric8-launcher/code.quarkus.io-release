@@ -16,7 +16,6 @@ services:
       IO_QUARKUS_CODE_GA_EXTENSION_QUANTITY_INDEX: 8
       IO_QUARKUS_CODE_GA_BATCHING_ENABLED: "false"
       IO_QUARKUS_CODE_FEATURES: support-button
-      IO_QUARKUS_CODE_LOG_LEVEL: inherit
   - name: production
     parameters:
       REPLICAS: 3

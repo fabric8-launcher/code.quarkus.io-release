@@ -23,5 +23,15 @@ All those links have restricted access:
 - Sentry: https://sentry.devshift.net/
 - Slack: https://coreos.slack.com (channel sd-app-sre)
 
+## Debug
+
+Start latest quay image locally:
+```bash
+docker run -i --rm -p 8080:8080 quay.io/quarkus/code-quarkus-app:latest
+```
+
+- staging code-quarkus-app pods logs: https://kibana-openshift-logging.apps.app-sre-stage-0.k3s7.p1.openshiftapps.com/app/kibana#/discover/AXMuNHLjJGsa94xdVfIL?_g=()
+- prod code-quarkus-app pods logs: https://kibana-openshift-logging.apps.app-sre-prod-01.i7w5.p1.openshiftapps.com/app/kibana#/discover/AXMuPctrmggFuGDWD6rh?_g=()
+
 
 To request access, please contact adamevin@redhat.com

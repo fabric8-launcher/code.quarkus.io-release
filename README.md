@@ -1,6 +1,6 @@
 # Code Quarkus release
 
-## Depracation notice
+## Deprecation notice
 
 This repository is now deprecated in favor of the Red Hat Service Delivery App SRE team app-interface repository.
 
